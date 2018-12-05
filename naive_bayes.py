@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 27 10:09:57 2018
-
-@author: Niveditha G
-"""
-
 import pandas as pd 
 msg=pd.read_csv('naivetext1.csv',names=['message','label'])
 print('The dimension of the dataset',msg.shape)
